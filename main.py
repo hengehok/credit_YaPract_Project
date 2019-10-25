@@ -7,7 +7,7 @@ from credit import Credit
 
 
 if __name__ == "__main__":
-    print('Что делаем? Считаем кредит(1) или Тестируем?(2)')
+    print('Что делаем? Считаем кредит(1) или Тестируем файл?(2)')
     choice = input()
 
     if choice == '1':
@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     elif choice == '2':
         print('Test is running')
-        csv_path = "testFile.csv"
+        csv_path = "testFileFalse.csv"
 
         with open(csv_path) as csv_obj:
             reader = csv.DictReader(csv_obj, delimiter=',')

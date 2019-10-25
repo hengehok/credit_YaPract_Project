@@ -1,0 +1,10 @@
+age,sex,sourceIncome,income,rate,expectedSum,period,goal,expectedResult,caseName
+-1,F,worker,1000000,0,500000,1,auto,Invalid,wrong age
+25,D,worker,1000000,0,500000,1,auto,Invalid,wrong sex
+25,F,hard-worker,1000000,0,500000,1,auto,Invalid,wrong sourceIncome
+25,F,worker,1000000,4,500000,1,auto,Invalid,wrong rate
+25,F,worker,1000000,-4,500000,1,auto,Invalid,wrong negative rate
+25,F,worker,1000000,0,11000000,1,auto,Invalid,wrong expected Sum-too big
+25,F,worker,1000000,1,12000,1,auto,Invalid,wrong expected Sum-too small
+25,M,worker,1000000,0,500000,0,auto,Invalid,wrong period
+25,M,worker,1000000,21,500000,21,auto,Invalid,wrong period

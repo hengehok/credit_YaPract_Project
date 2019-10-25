@@ -1,0 +1,3 @@
+age,sex,sourceIncome,income,rate,expectedSum,period,goal,expectedResult,caseName
+45,F,worker,50000000,2,1000000,5,auto,29000,goal='auto'(correct data)
+18,F,worker,50000000,0,1000000,1,hypothec,1077500,age=18

@@ -1,0 +1,9 @@
+19,F,worker,1000000,0,100000,1,auto,112052.585,age=19
+59,F,worker,1000000,0,100000,1,auto,112052.585,almost retirement age F 59
+64,M,worker,1000000,0,100000,1,personal,113552.585,almost retirement age M 64
+40,F,passive,2000000,-1,1000000,2,hypothec,600000,passive and rate=-1 (max credit sum = 1)
+42,M,worker,90000,1,300000,10,auto,,expextedSum/period equals1/3 of income
+40,M,worker,5000000,0,5000000,5,hypothec,1307028.104,worker and rate=0 (max credit sum = 5)
+35,M,worker,10000000,2,1000000,5,hypothec,270000,lowest interest rate
+35,M,passive,10000000,-1,100000,10,personal,25802.585,highest interest rate
+35,F,passive,10000000,0,1000000,5,businessdev,300000,interest rate with null
